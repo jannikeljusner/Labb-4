@@ -5,7 +5,8 @@ const firstName = "Jannike";
 const lastName = "Ljusner";
 let age = 37;
 const isStudent = true;
-// Skriver ut resultatet i terminalen
-console.log(firstName, lastName);
-console.log("Ålder:", age);
-console.log("Student:", isStudent);
+
+// Skriver ut resultatet i terminalen med backticks
+console.log(`${firstName} ${lastName}`);
+console.log(`Ålder: ${age}`);
+console.log(`Student: ${isStudent}`);
